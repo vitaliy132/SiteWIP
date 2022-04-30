@@ -1,0 +1,141 @@
+#icon {
+  cursor: pointer;
+}
+#shapka {
+  padding-left: 100px;
+  text-transform: uppercase;
+}
+h6 {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 35px;
+  letter-spacing: 0.5px;
+  color: #1f2023;
+  transition: color 0.5s;
+}
+
+h6:hover {
+  color: #adaaa7;
+}
+
+.silki {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  padding-right: 25px;
+  margin-right: 21px;
+  font-size: small;
+  color: white !important;
+  text-decoration: none !important ;
+}
+
+.magaz::after {
+  content: " ";
+  width: 1px;
+  height: 14px;
+  display: block;
+  background: #fff;
+  position: absolute;
+  left: 200px;
+  top: 16px;
+}
+
+.magaz::before {
+  background-image: url(/public/ic_header_gps.svg);
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: "";
+}
+.header-top-black {
+  min-height: 40px;
+}
+
+.header-top-left {
+  margin-top: 2px !important;
+}
+
+.telef::before {
+  background-image: url(/public/ic_header_mobile.svg);
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: "";
+}
+.whiteNavbar {
+  color: #1f2023 !important;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Roboto;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.telef::after {
+  content: " ";
+  width: 1px;
+  height: 14px;
+  display: block;
+  background: #fff;
+  position: absolute;
+  left: 569px;
+  top: 16px;
+}
+
+.grafik::before {
+  background-image: url(/public/ic_header_clock.svg);
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: "";
+}
+
+.crtNmbr {
+  width: 24px;
+  height: 24px;
+  margin-right: -4px;
+  margin-left: 6px;
+  padding-top: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto;
+  text-align: center;
+  background: #f27c15;
+  display: inline-block;
+  border-radius: 50%;
+  transform: translate(200px, 17px);
+}
+@media screen and (max-width: 1022px) {
+  .header-top-left {
+    display: none;
+  }
+}
+.header-btn-login a {
+  font-size: 12px;
+  height: 16px;
+  padding-left: 28px;
+  padding-top: 2px;
+  position: relative;
+}
+
+.searchbox-icon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  background: url(/public/ic_search_header.svg);
+  cursor: pointer;
+  background-color: #1f2023;
+}
+.entryButton {
+  margin-left: 20px;
+  margin-right: 0px !important;
+  padding-right: 43px !important;
+}
