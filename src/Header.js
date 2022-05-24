@@ -32,14 +32,11 @@ function Header() {
             <a href="/" className=" entryButton ">
               Вход
             </a>
-            <form className="searchbox" id="search">
-              <span className="searchbox-icon"></span>
-            </form>
           </div>
         </div>
       </div>
-      <nav className=" navbar navbar-expand-lg">
-        <div className="container-fluid">
+      <nav className=" navbar navbar-expand-lg  ">
+        <div className="container-fluid mainHeader">
           <a className="whiteNavbar navbar-brand" href="/">
             Navbar
           </a>
