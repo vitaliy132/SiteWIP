@@ -1,26 +1,63 @@
 function Main() {
   return (
     <main>
-      <section className="py-5 text-center container">
-        <div className="row py-lg-5">
-          <div className="col-lg-6 col-md-8 mx-auto">
-            <h1 className="fw-light">Album example</h1>
-            <p className="lead text-muted">
-              Something short and leading about the collection below—its contents, the creator, etc.
-              Make it short and sweet, but not too short so folks don’t simply skip over it
-              entirely.
-            </p>
-            <p>
-              <a href="/" className="btn btn-primary my-2">
-                Main call to action
-              </a>
-              <a href="/" className="btn btn-secondary my-2">
-                Secondary action
-              </a>
-            </p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="slide1.jpg" class="d-block w-100" alt="slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>POP TRADING COMPANY</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slide2.jpg" class="d-block w-100" alt="slide2" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>CALL ME 917</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slide3.jpg" class="d-block w-100" alt="slide3" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>MARKET</h2>
+            </div>
           </div>
         </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <div className="album py-5 bg-light">
         <div className="container">
@@ -28,196 +65,48 @@ function Main() {
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi1.jpg" alt="kross" />
-
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi2.jpg" alt="kross2" />
-
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi3.jpg" alt="kross3" />
-
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi4.jpg" alt="kross4" />
-
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi1.jpg" alt="kross" />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi2.jpg" alt="kross2" />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi3.jpg" alt="kross3" />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi4.jpg" alt="kross4" />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col">
               <div className="card shadow-sm">
                 <img id="icon" src="adi1.jpg" alt="kross1" />
-                <div className="card-body">
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                  </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Купить
-                      </button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -24,7 +24,6 @@ h6 {
 }
 
 a {
-  padding-right: 25px;
   margin-right: 21px;
   font-size: small;
   color: white !important;
@@ -38,7 +37,7 @@ a {
   display: block;
   background: #fff;
   position: absolute;
-  left: 380px;
+  left: 410px;
   top: 16px;
 }
 
@@ -82,7 +81,7 @@ a {
   display: block;
   background: #fff;
   position: absolute;
-  left: 555px;
+  left: 561px;
   top: 16px;
 }
 
@@ -93,6 +92,7 @@ a {
   width: 16px;
   height: 16px;
   content: "";
+  margin-right: 9px;
 }
 
 .crtNmbr {
@@ -131,8 +131,6 @@ a {
 
 .mainHeader {
   padding-left: 250px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #eaeaea;
 }
 @media screen and (max-width: 993px) {
   .mainHeader {
@@ -144,4 +142,19 @@ a {
   .entryButton {
     margin-left: 860px;
   }
+}
+.carousel {
+  height: 550px !important;
+}
+.carousel-inner img {
+  height: 550px !important;
+  filter: brightness(0.7);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  filter: brightness(0.9) blur(0.9px);
 }
