@@ -68,7 +68,7 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="whiteNavbar nav-link active" href="/">
+                <a className="whiteNavbar nav-link active" href=".pages/Wear">
                   Одежда
                 </a>
               </li>

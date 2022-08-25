@@ -5,18 +5,6 @@
   padding-left: 100px;
   text-transform: uppercase;
 }
-h6 {
-  cursor: pointer;
-  margin-top: 20px;
-  margin-right: 35px;
-  letter-spacing: 0.5px;
-  color: #1f2023;
-  transition: color 0.5s;
-}
-
-/* .nav-item:hover {
-  color: #adaaa7;
-} */
 
 .silki {
   display: flex;
@@ -152,9 +140,38 @@ a {
 }
 
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
-.card:hover {
-  filter: brightness(0.9) blur(0.9px);
+.fastBuy {
+  display: none;
+  position: absolute;
+  top: 21%;
+  right: 5%;
+}
+.card:hover .fastBuy {
+  display: block;
+}
+
+.favoriteBtn {
+  display: none;
+  position: absolute;
+  top: 6%;
+  right: 5%;
+}
+
+.card:hover .favoriteBtn {
+  display: block;
+}
+
+.cardText {
+  max-width: 185px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Roboto;
+}
+.cardPrice {
+  font-weight: 550;
+  font-family: Roboto;
 }
