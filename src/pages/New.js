@@ -1,4 +1,4 @@
-function New() {
+const New = () => {
   return (
     <div className="album py-5 bg-light">
       <div className="container">
@@ -144,6 +144,6 @@ function New() {
       </div>
     </div>
   );
-}
+};
 
-export default New;
+export { New };
