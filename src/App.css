@@ -184,28 +184,22 @@ a {
 #icon {
   transition: 0.8s;
 }
-#icon:hover {
-  filter: blur(1px);
-  cursor: pointer;
-}
-#icon:hover + .fastBuy {
-  opacity: 1;
-}
-
-#icon:hover + .fastBuy + .favoriteBtn {
-  opacity: 1;
-}
 
 .cardText {
+  width: 100%;
   max-width: 185px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 18px;
   font-family: Roboto;
+  font-weight: 700;
 }
 .cardPrice {
-  font-weight: 550;
   font-family: Roboto;
+  position: absolute;
+  top: 61px;
+  left: 28px;
+  font-size: larger;
+  font-weight: 700;
 }
 
 .main-new-product-body {
@@ -244,8 +238,26 @@ h3 {
   max-width: 1170px;
   margin-left: 100px;
 }
-
 .productTitle {
   position: absolute;
-  top: 80px;
+  --c: linear-gradient(#ffffff 0 0);
+  padding-bottom: 0.4em;
+  background: var(--c), var(--c);
+  background-size: 6em 0.1em;
+  background-position: 27% 100%;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 135px;
+  color: white;
+  opacity: 0;
+  transition: 1s;
+}
+
+.col:hover .productTitle {
+  translate: 0px 100px;
+  opacity: 1;
+}
+.col:hover #icon {
+  filter: brightness(0.7);
+  cursor: pointer;
 }

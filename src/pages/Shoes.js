@@ -14,12 +14,6 @@ const Shoes = () => {
                 <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
                 <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
-              </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
             </div>
           </div>
           <div className="col">
@@ -28,12 +22,6 @@ const Shoes = () => {
               <div className="productTitle d-flex justify-content-between">
                 <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
                 <div className="cardPrice">UAH 3 600</div>
-              </div>
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
-              </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
               </div>
             </div>
           </div>
@@ -44,104 +32,62 @@ const Shoes = () => {
                 <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
                 <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
-              </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
             </div>
           </div>
 
           <div className="col">
             <div className="card shadow-sm">
               <img id="icon" src="./shoes/shoes4.jpg" alt="kross4" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
           <div className="col">
             <div className="card shadow-sm">
               <img id="icon" src="./shoes/shoes5.jpg" alt="kross" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
           <div className="col">
             <div className="card shadow-sm">
               <img id="icon" src="./shoes/shoes6.jpg" alt="kross2" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
 
           <div className="col">
             <div className="card shadow-sm">
-              <img id="icon" src="./shoes/shoes7.jpg" alt="kross3" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <img id="icon" src="./shoes/shoes7.jpg" alt="kross3" />{" "}
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
           <div className="col">
             <div className="card shadow-sm">
-              <img id="icon" src="./shoes/shoes8.jpg" alt="kross4" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <img id="icon" src="./shoes/shoes8.jpg" alt="kross4" />{" "}
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
           <div className="col">
             <div className="card shadow-sm">
-              <img id="icon" src="./shoes/shoes9.jpg" alt="kross1" />
-              <div className="fastBuy">
-                <img src="ic_eye_product.svg" alt="glaz" />
+              <img id="icon" src="./shoes/shoes9.jpg" alt="kross1" />{" "}
+              <div className="productTitle d-flex justify-content-between">
+                <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
+                <div className="cardPrice">UAH 3 600</div>
               </div>
-              <div className="favoriteBtn">
-                <img src="ic_star_product.svg" alt="star" />
-              </div>
-            </div>
-            <div className="productTitle d-flex justify-content-between">
-              <div className="cardText">Толстовка з капюшоном Polar No Complies Forever</div>
-              <div className="cardPrice">UAH 3 600</div>
             </div>
           </div>
         </div>
