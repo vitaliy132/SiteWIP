@@ -10,12 +10,11 @@ const Layout = () => {
                 <li>
                   <a href="/" className="magaz">
                     {" "}
-                    Магазин в центре Киева{" "}
+                    Магазин в центре Киева
                   </a>
                 </li>
                 <li>
                   <a href="/" className="telef ">
-                    {" "}
                     +38 067 322 22 21{" "}
                   </a>
                 </li>
@@ -38,7 +37,7 @@ const Layout = () => {
         <nav className=" navbar navbar-expand-lg  ">
           <div className="container-fluid mainHeader">
             <Link className="whiteNavbar navbar-brand" to="/">
-              Navbar
+              Logo
             </Link>
             <button
               className="navbar-toggler navbar-light"
